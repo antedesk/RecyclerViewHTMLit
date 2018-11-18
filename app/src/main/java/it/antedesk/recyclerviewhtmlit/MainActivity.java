@@ -12,14 +12,14 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import it.antedesk.recyclerviewhtmlit.adapter.ItemAdapter;
 
-public class MainActivity extends AppCompatActivity implements ItemAdapter.ListItemClickListener {
+public class MainActivity extends AppCompatActivity implements ItemAdapter.ItemClickListener {
 
     private static final int NUM_LIST_ITEMS = 100;
 
     private ItemAdapter mAdapter;
 
     @BindView(R.id.rv_colored)
-    RecyclerView mNumbersList;
+    RecyclerView mList;
 
     private Toast mToast;
 
@@ -30,12 +30,12 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.ListI
         ButterKnife.bind(this);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        mNumbersList.setLayoutManager(layoutManager);
+        mList.setLayoutManager(layoutManager);
 
-        mNumbersList.setHasFixedSize(true);
+        mList.setHasFixedSize(true);
 
         mAdapter = new ItemAdapter(NUM_LIST_ITEMS, this);
-        mNumbersList.setAdapter(mAdapter);
+        mList.setAdapter(mAdapter);
     }
 
     @Override
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.ListI
         switch (itemId) {
             case R.id.action_refresh:
                 mAdapter = new ItemAdapter(NUM_LIST_ITEMS, this);
-                mNumbersList.setAdapter(mAdapter);
+                mList.setAdapter(mAdapter);
                 return true;
         }
 

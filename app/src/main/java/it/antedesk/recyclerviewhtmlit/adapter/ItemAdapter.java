@@ -22,21 +22,20 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
      * An on-click handler that we've defined to make it easy for an Activity to interface with
      * our RecyclerView
      */
-    final private ListItemClickListener mOnClickListener;
+    final private ItemClickListener mOnClickListener;
 
     private static int viewHolderCount;
-
     private int mNumberItems;
     private Context parentContex;
 
      /**
      * The interface that receives onClick messages.
      */
-    public interface ListItemClickListener {
+    public interface ItemClickListener {
         void onListItemClick(int clickedItemIndex);
     }
 
-    public ItemAdapter(int numberOfItems, ListItemClickListener listener) {
+    public ItemAdapter(int numberOfItems, ItemClickListener listener) {
         mNumberItems = numberOfItems;
         mOnClickListener = listener;
         viewHolderCount = 0;
@@ -90,7 +89,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
             ButterKnife.bind(this, itemView);
             itemView.setOnClickListener(this);
         }
-
 
         void bind(int listIndex) {
             mListItemNumberTV.setText(String.valueOf(listIndex));
