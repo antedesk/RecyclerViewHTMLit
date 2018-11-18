@@ -3,4 +3,24 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- created with http://meyerweb.com/eric/tools/color-blend/#FF0033::1:hex -->
+    <color name="material50OrangeYellow">#FFFFFF</color>
+    <color name="material100OrangeYellow">#FFFFD1</color>
+    <color name="material150OrangeYellow">#FFFFB9</color>
+    <color name="material200OrangeYellow">#FFFFA2</color>
+    <color name="material250OrangeYellow">#FFFF74</color>
+    <color name="material300OrangeYellow">#FFFF46</color>
+    <color name="material350OrangeYellow">#FFFF00</color>
+    <color name="material400OrangeYellow">#FFE800</color>
+    <color name="material450OrangeYellow">#FFD100</color>
+    <color name="material500OrangeYellow">#FFB900</color>
+    <color name="material550OrangeYellow">#FFA200</color>
+    <color name="material600OrangeYellow">#FF8B00</color>
+    <color name="material650OrangeYellow">#FF7400</color>
+    <color name="material700OrangeYellow">#FF5D00</color>
+    <color name="material750OrangeYellow">#FF4600</color>
+    <color name="material800OrangeYellow">#FF2E00</color>
+    <color name="material850OrangeYellow">#FF1700</color>
+    <color name="material900OrangeYellow">#FF0033</color>
 </resources>
