@@ -10,41 +10,35 @@ public class ColorUtils {
     public static int getViewHolderBackgroundColorFromInstance(Context context, int instanceNum) {
         switch (instanceNum) {
             case 0:
-                return ContextCompat.getColor(context, R.color.material50OrangeYellow);
-            case 1:
                 return ContextCompat.getColor(context, R.color.material100OrangeYellow);
-            case 2:
+            case 1:
                 return ContextCompat.getColor(context, R.color.material150OrangeYellow);
-            case 3:
+            case 2:
                 return ContextCompat.getColor(context, R.color.material200OrangeYellow);
-            case 4:
+            case 3:
                 return ContextCompat.getColor(context, R.color.material250OrangeYellow);
-            case 5:
+            case 4:
                 return ContextCompat.getColor(context, R.color.material300OrangeYellow);
-            case 6:
+            case 5:
                 return ContextCompat.getColor(context, R.color.material350OrangeYellow);
-            case 7:
+            case 6:
                 return ContextCompat.getColor(context, R.color.material400OrangeYellow);
-            case 8:
+            case 7:
                 return ContextCompat.getColor(context, R.color.material450OrangeYellow);
-            case 9:
+            case 8:
                 return ContextCompat.getColor(context, R.color.material500OrangeYellow);
-            case 10:
+            case 9:
                 return ContextCompat.getColor(context, R.color.material550OrangeYellow);
-            case 11:
+            case 10:
                 return ContextCompat.getColor(context, R.color.material600OrangeYellow);
-            case 12:
+            case 11:
                 return ContextCompat.getColor(context, R.color.material650OrangeYellow);
-            case 13:
+            case 12:
                 return ContextCompat.getColor(context, R.color.material700OrangeYellow);
-            case 14:
+            case 13:
                 return ContextCompat.getColor(context, R.color.material750OrangeYellow);
-            case 15:
-                return ContextCompat.getColor(context, R.color.material800OrangeYellow);
-            case 16:
+            case 14:
                 return ContextCompat.getColor(context, R.color.material850OrangeYellow);
-            case 17:
-                return ContextCompat.getColor(context, R.color.material900OrangeYellow);
 
             default:
                 return Color.WHITE;

@@ -3,4 +3,5 @@
     <string name="html_it_logo">html.it logo</string>
     <string name="subtitle_placeholder">ViewHolder instance: 1</string>
     <string name="number_placeholder">21</string>
+    <string name="action_reset">Reset RV</string>
 </resources>

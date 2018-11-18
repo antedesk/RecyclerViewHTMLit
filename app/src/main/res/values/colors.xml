@@ -4,8 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <!-- created with http://meyerweb.com/eric/tools/color-blend/#FF0033::1:hex -->
-    <color name="material50OrangeYellow">#FFFFFF</color>
+    <!-- created with http://meyerweb.com/eric/tools/color-blend/#FF1700::1:hex -->
     <color name="material100OrangeYellow">#FFFFD1</color>
     <color name="material150OrangeYellow">#FFFFB9</color>
     <color name="material200OrangeYellow">#FFFFA2</color>
@@ -22,6 +21,5 @@
     <color name="material750OrangeYellow">#FF4600</color>
     <color name="material800OrangeYellow">#FF2E00</color>
     <color name="material850OrangeYellow">#FF1700</color>
-    <color name="material900OrangeYellow">#FF0033</color>
     <color name="black">#000</color>
 </resources>
