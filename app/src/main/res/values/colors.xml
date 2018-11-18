@@ -23,4 +23,5 @@
     <color name="material800OrangeYellow">#FF2E00</color>
     <color name="material850OrangeYellow">#FF1700</color>
     <color name="material900OrangeYellow">#FF0033</color>
+    <color name="black">#000</color>
 </resources>
